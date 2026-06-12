@@ -5,12 +5,235 @@
       "name": "Lionel Messi",
       "position": "RW / CAM",
       "image": "https://ui-avatars.com/api/?name=Lionel+Messi&background=00e5ff&color=08060f&size=150&bold=true",
-      "tactical": "Primary Playmaker...",
-      "achievements": ["8x Ballon d'Or", "World Cup Winner (2022)"],
-      "clubs": [ { "name": "Inter Miami", "years": "2023-Present" } ]
+      "tactical": "Primary Playmaker. Drops deep into the right half-space to dictate tempo. Often operates as a False 9, requiring runners in behind to exploit space created by his gravity.",
+      "achievements": ["8x Ballon d'Or", "World Cup Winner (2022)", "2x Copa América Winner", "4x Champions League"],
+      "clubs": [
+        { "name": "Inter Miami", "years": "2023-Present" },
+        { "name": "Paris Saint-Germain", "years": "2021-2023" },
+        { "name": "Barcelona", "years": "2004-2021" }
+      ]
+    },
+    {
+      "id": "arg_2",
+      "name": "Emiliano Martínez",
+      "position": "GK",
+      "image": "https://ui-avatars.com/api/?name=Emiliano+Martinez&background=d1ff00&color=08060f&size=150&bold=true",
+      "tactical": "Sweeper Keeper. Elite shot-stopper with an aggressive box presence. Unparalleled psychological dominance during penalty shootouts.",
+      "achievements": ["World Cup Winner (2022)", "Yashin Trophy (2023)", "Golden Glove (2022)"],
+      "clubs": [
+        { "name": "Aston Villa", "years": "2020-Present" },
+        { "name": "Arsenal", "years": "2012-2020" }
+      ]
+    },
+    {
+      "id": "arg_3",
+      "name": "Julián Álvarez",
+      "position": "ST / LW",
+      "image": "https://ui-avatars.com/api/?name=Julian+Alvarez&background=ff007f&color=fff&size=150&bold=true",
+      "tactical": "Relentless Pressing Forward. His high work rate off the ball makes him the perfect foil for Messi. Excels at finding pockets of space in congested boxes.",
+      "achievements": ["World Cup Winner (2022)", "Champions League Winner", "Premier League Winner"],
+      "clubs": [
+        { "name": "Manchester City", "years": "2022-Present" },
+        { "name": "River Plate", "years": "2018-2022" }
+      ]
     }
   ],
   "France": [
-    // ... France players here
-  ]
+    {
+      "id": "fra_1",
+      "name": "Kylian Mbappé",
+      "position": "LW / ST",
+      "image": "https://ui-avatars.com/api/?name=Kylian+Mbappe&background=00e5ff&color=08060f&size=150&bold=true",
+      "tactical": "Inside Forward. Utilizes explosive pace to break lines. Primarily operates in the left channel, cutting inside to shoot. Requires a target man to play off of.",
+      "achievements": ["World Cup Winner (2018)", "World Cup Golden Boot (2022)", "Multiple Ligue 1 Titles"],
+      "clubs": [
+        { "name": "Real Madrid", "years": "2024-Present" },
+        { "name": "Paris Saint-Germain", "years": "2017-2024" },
+        { "name": "AS Monaco", "years": "2015-2017" }
+      ]
+    },
+    {
+      "id": "fra_2",
+      "name": "Antoine Griezmann",
+      "position": "CAM / CM",
+      "image": "https://ui-avatars.com/api/?name=Antoine+Griezmann&background=ff007f&color=fff&size=150&bold=true",
+      "tactical": "Advanced Playmaker / Box-to-Box. The tactical engine. Has evolved into a hybrid 8/10 who dictates play, switches the ball effortlessly, and provides elite defensive cover.",
+      "achievements": ["World Cup Winner (2018)", "Europa League Winner"],
+      "clubs": [
+        { "name": "Atlético Madrid", "years": "2021-Present" },
+        { "name": "Barcelona", "years": "2019-2021" },
+        { "name": "Atlético Madrid", "years": "2014-2019" }
+      ]
+    },
+    {
+      "id": "fra_3",
+      "name": "William Saliba",
+      "position": "CB",
+      "image": "https://ui-avatars.com/api/?name=William+Saliba&background=d1ff00&color=08060f&size=150&bold=true",
+      "tactical": "Ball-Playing Defender. Anchors the high line. Elite recovery pace and exceptional composure on the ball to build out from the back under severe pressing.",
+      "achievements": ["Premier League PFA Team of the Year"],
+      "clubs": [
+        { "name": "Arsenal", "years": "2019-Present" },
+        { "name": "Marseille (Loan)", "years": "2021-2022" }
+      ]
+    }
+  ],
+  "USA": [
+    {
+      "id": "usa_1",
+      "name": "Christian Pulisic",
+      "position": "LW / CAM",
+      "image": "https://ui-avatars.com/api/?name=Christian+Pulisic&background=00e5ff&color=08060f&size=150&bold=true",
+      "tactical": "Direct Winger. The focal point of the USMNT transition attack. Uses low center of gravity to carry the ball vertically and commit defenders in the final third.",
+      "achievements": ["Champions League Winner", "CONCACAF Nations League Winner"],
+      "clubs": [
+        { "name": "AC Milan", "years": "2023-Present" },
+        { "name": "Chelsea", "years": "2019-2023" },
+        { "name": "Dortmund", "years": "2016-2019" }
+      ]
+    },
+    {
+      "id": "usa_2",
+      "name": "Weston McKennie",
+      "position": "CM",
+      "image": "https://ui-avatars.com/api/?name=Weston+McKennie&background=ff007f&color=fff&size=150&bold=true",
+      "tactical": "Box-to-Box Midfielder. High-volume ball winner with an elite aerial presence on set pieces. Crucial for disrupting opposition build-up play.",
+      "achievements": ["Coppa Italia Winner"],
+      "clubs": [
+        { "name": "Juventus", "years": "2020-Present" },
+        { "name": "Schalke 04", "years": "2017-2020" }
+      ]
+    },
+    {
+      "id": "usa_3",
+      "name": "Antonee Robinson",
+      "position": "LB",
+      "image": "https://ui-avatars.com/api/?name=Antonee+Robinson&background=d1ff00&color=08060f&size=150&bold=true",
+      "tactical": "Attacking Fullback. Provides the primary width on the left flank, allowing the winger to invert. Elite stamina allows him to recover rapidly in defensive transitions.",
+      "achievements": ["EFL Championship Winner"],
+      "clubs": [
+        { "name": "Fulham", "years": "2020-Present" },
+        { "name": "Wigan", "years": "2019-2020" }
+      ]
+    }
+  ],
+  "Brazil": [
+    {
+      "id": "bra_1",
+      "name": "Vinícius Júnior",
+      "position": "LW / ST",
+      "image": "https://ui-avatars.com/api/?name=Vinicius+Junior&background=00e5ff&color=08060f&size=150&bold=true",
+      "tactical": "Inverted Winger. Arguably the most lethal 1v1 dribbler in the world. Thrives in isolation on the left wing before driving to the byline or cutting across the box.",
+      "achievements": ["2x Champions League Winner", "Multiple La Liga Titles"],
+      "clubs": [
+        { "name": "Real Madrid", "years": "2018-Present" },
+        { "name": "Flamengo", "years": "2017-2018" }
+      ]
+    },
+    {
+      "id": "bra_2",
+      "name": "Rodrygo",
+      "position": "RW / ST",
+      "image": "https://ui-avatars.com/api/?name=Rodrygo&background=d1ff00&color=08060f&size=150&bold=true",
+      "tactical": "Versatile Forward. Elite close-quarters combination play. Often drifts centrally to overload the penalty area and link up with the center forward.",
+      "achievements": ["2x Champions League Winner", "Copa del Rey Winner"],
+      "clubs": [
+        { "name": "Real Madrid", "years": "2019-Present" },
+        { "name": "Santos", "years": "2017-2019" }
+      ]
+    },
+    {
+      "id": "bra_3",
+      "name": "Bruno Guimarães",
+      "position": "CDM / CM",
+      "image": "https://ui-avatars.com/api/?name=Bruno+Guimaraes&background=ff007f&color=fff&size=150&bold=true",
+      "tactical": "Deep-Lying Destroyer. Combines South American flair in tight spaces with Premier League physicality. The crucial pivot connecting the defense to the attack.",
+      "achievements": ["Olympic Gold Medal (2020)"],
+      "clubs": [
+        { "name": "Newcastle United", "years": "2022-Present" },
+        { "name": "Lyon", "years": "2020-2022" }
+      ]
+    }
+  ],
+  "England": [
+    {
+      "id": "eng_1",
+      "name": "Jude Bellingham",
+      "position": "CAM / CM",
+      "image": "https://ui-avatars.com/api/?name=Jude+Bellingham&background=00e5ff&color=08060f&size=150&bold=true",
+      "tactical": "Shadow Striker / Number 10. Makes devastating late runs into the penalty area. Unmatched physical presence allows him to dominate aerial duels and physical pressing traps.",
+      "achievements": ["Champions League Winner", "Golden Boy (2023)"],
+      "clubs": [
+        { "name": "Real Madrid", "years": "2023-Present" },
+        { "name": "Dortmund", "years": "2020-2023" }
+      ]
+    },
+    {
+      "id": "eng_2",
+      "name": "Harry Kane",
+      "position": "ST",
+      "image": "https://ui-avatars.com/api/?name=Harry+Kane&background=d1ff00&color=08060f&size=150&bold=true",
+      "tactical": "Complete Forward. Elite finishing combined with the passing range of a playmaker. Drops deep to pull center-backs out of position, creating space for wingers to exploit.",
+      "achievements": ["World Cup Golden Boot (2018)", "All-time England Top Scorer"],
+      "clubs": [
+        { "name": "Bayern Munich", "years": "2023-Present" },
+        { "name": "Tottenham", "years": "2009-2023" }
+      ]
+    },
+    {
+      "id": "eng_3",
+      "name": "Declan Rice",
+      "position": "CDM",
+      "image": "https://ui-avatars.com/api/?name=Declan+Rice&background=ff007f&color=fff&size=150&bold=true",
+      "tactical": "Single Pivot. Covers massive ground horizontally to protect the back four. Excellent at carrying the ball out of pressure to break the first line of defense.",
+      "achievements": ["Europa Conference League Winner"],
+      "clubs": [
+        { "name": "Arsenal", "years": "2023-Present" },
+        { "name": "West Ham", "years": "2015-2023" }
+      ]
+    }
+  ],
+  "Mexico": [],
+  "South Africa": [],
+  "South Korea": [],
+  "Czechia": [],
+  "Canada": [],
+  "Bosnia & Herzegovina": [],
+  "Qatar": [],
+  "Switzerland": [],
+  "Morocco": [],
+  "Haiti": [],
+  "Scotland": [],
+  "Paraguay": [],
+  "Australia": [],
+  "Türkiye": [],
+  "Germany": [],
+  "Curaçao": [],
+  "Ivory Coast": [],
+  "Ecuador": [],
+  "Netherlands": [],
+  "Japan": [],
+  "Sweden": [],
+  "Tunisia": [],
+  "Belgium": [],
+  "Egypt": [],
+  "Iran": [],
+  "New Zealand": [],
+  "Spain": [],
+  "Cape Verde": [],
+  "Saudi Arabia": [],
+  "Uruguay": [],
+  "Senegal": [],
+  "Iraq": [],
+  "Norway": [],
+  "Algeria": [],
+  "Austria": [],
+  "Jordan": [],
+  "Portugal": [],
+  "DR Congo": [],
+  "Uzbekistan": [],
+  "Colombia": [],
+  "Croatia": [],
+  "Ghana": [],
+  "Panama": []
 }
