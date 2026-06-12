@@ -1,0 +1,16 @@
+{
+  "Argentina": [
+    {
+      "id": "arg_1",
+      "name": "Lionel Messi",
+      "position": "RW / CAM",
+      "image": "https://ui-avatars.com/api/?name=Lionel+Messi&background=00e5ff&color=08060f&size=150&bold=true",
+      "tactical": "Primary Playmaker...",
+      "achievements": ["8x Ballon d'Or", "World Cup Winner (2022)"],
+      "clubs": [ { "name": "Inter Miami", "years": "2023-Present" } ]
+    }
+  ],
+  "France": [
+    // ... France players here
+  ]
+}
